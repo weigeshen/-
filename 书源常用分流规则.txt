@@ -1,6 +1,8 @@
 #如果你是用的也是圈叉
+#方法①远程引用
 #可以直接引用到分流，规则地址:https://raw.githubusercontent.com/weigeshen/-/main/%E4%B9%A6%E6%BA%90%E5%B8%B8%E7%94%A8%E5%88%86%E6%B5%81%E8%A7%84%E5%88%99.txt
-#把规则导入到配置文件的#[filter_local]下
+#方法②本地添加
+#也可以把规则导入到配置文件的#[filter_local]下
 #也可以把后面的: proxy改为自己的[策略组名]如我的是:阅读🪜
 #如果你是其它软件:请根据自己的情况修改导入:
 host, ydan.cc, proxy
