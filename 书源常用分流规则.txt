@@ -5,6 +5,9 @@
 #也可以把规则导入到配置文件的#[filter_local]下
 #也可以把后面的: proxy改为自己的[策略组名]如我的是:阅读🪜
 #如果你是其它软件:请根据自己的情况修改导入:
+host, twhml.mvpimg.com, proxy
+host, tuwenhanman.com, proxy
+host, www.mangabz.com, proxy
 host, ydan.vip, proxy
 host, www.manhuagui.com, proxy
 host, www.mhgui.com, proxy
