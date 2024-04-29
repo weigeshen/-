@@ -1,0 +1,248 @@
+# 分流规则配置片段包含若干条分流规则；可通过资源引用的方式使用。
+# 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
+# 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.snippet
+ 
+ 
+ 
+;host, www.example.com, direct
+#阅读一键导入
+host, sy.legado1.top, direct
+
+#源仓库
+host-suffix, yckceo.com, proxy
+
+#樱花视频
+host-suffix, yhzy.cc, proxy
+
+#✈妹塔宇宙meitaav视频
+host-suffix, meitaav.com, proxy
+host-suffix, meita.cc, proxy
+
+#91porn视频
+host-suffix, 91porn.com, proxy
+
+#麻豆视频
+host-suffix, meproxy, proxy
+
+#溅射淫行视频
+host-suffix, xd01.me, proxy
+
+#正妹AV视频
+host-suffix, goodav17.com, proxy
+
+#哟糖社
+host-suffix, nicesss.com , proxy
+host-suffix, nicezzz.com , proxy
+
+#第一版主
+host-suffix, diyibanzhu.buzz , proxy
+host-suffix, 12bz.net , proxy
+
+#御书屋
+host-suffix, yuzhaiwu.life , proxy
+host-suffix, po18xs.com , proxy
+
+#集书阁
+host-suffix, jishuge.vip , proxy
+
+#爱笔楼/笔趣阁
+host-suffix, ibiquge.info , proxy
+host-suffix, ibiquzw.info , proxy
+
+#猫眼看书
+host-suffix, jmlldsc.com , proxy
+host-suffix, jxgtzxc.com , proxy
+#笔尖小说
+host-suffix, bjcan8.com , proxy
+
+#恩木书库
+host-suffix, enmuku.com , proxy
+
+#疯情阅读
+host-suffix, aaread.club , proxy
+
+#龙腾小说
+host-suffix, longtengxiaoshuo.org , proxy
+
+#大米小说
+host-suffix, damixs.com , proxy
+host-suffix, damixs.info , proxy
+
+#海阅小说8
+host-suffix, haiyue8.cc , proxy
+host-suffix, haiyue8.com , proxy
+
+#番茄小说123
+host-suffix, fqxs123.com , proxy
+
+#提莫书屋
+host-suffix, timotxt.com , proxy
+
+#贼吧网
+host-suffix, zei8.vip , proxy
+
+#言情港
+host-suffix, yanqinggang.com , proxy
+
+#看书神
+host-suffix, kanshushenapp.com , proxy
+
+#笔趣阁
+host-suffix, biqugewu.net , proxy
+host-suffix, biqugej.org , proxy
+host-suffix, bqgka.com , proxy
+host-suffix, bqgbe.com , proxy
+
+#笔趣阁789
+host-suffix, biquzw789.info , proxy
+host-suffix, bqg789.com , proxy
+host-suffix, bqzw789.com , proxy
+
+#天天书吧
+host-suffix, ttshuba.net , proxy
+
+#全本小说
+host-suffix, qb5.in , proxy
+host-suffix, qb5.ac , proxy
+
+#奇快中文
+host-suffix, qkzw.cc , proxy
+
+#138阅读网
+host-suffix, 138txt.net , proxy
+
+#错衡文学网
+host-suffix, cuoheng.com , proxy
+
+#乐文小说
+host-suffix, lewen.so , proxy
+host-suffix, lewen.org , proxy
+
+#天籁小说
+host-suffix, 23sk.net , proxy
+host-suffix, 23sk.com , proxy
+
+#星月文学
+host-suffix, xingyueboke.com , proxy
+
+#TVB小说网
+host-suffix, tvbts.net , proxy
+host-suffix, tvbts4.com , proxy
+
+#飞翔鸟中文🐦‍⬛
+host-suffix, fxnzw.com, proxy
+
+#爱去小说
+host-suffix, aiquxs.com , proxy
+
+#书汇小说
+host-suffix, shuhui8.com , proxy
+
+#爱下电子书
+host-suffix, aixdzs.com, proxy
+
+#69书吧
+host-suffix, 69shuba.com, proxy
+host-suffix, 69shu.com, proxy
+host-suffix, 69xinshu.com , proxy
+host-suffix, 69shu.pro, proxy
+host-suffix, 69shu.xyz, proxy
+host-suffix, 69shu.io , proxy
+
+#渣渣小说
+host-suffix, zztxt.net , proxy
+
+#云云小说
+host-suffix, yunyunxs.com , proxy
+
+#去读小说
+host-suffix, hongyue3.net , proxy
+
+#147小说
+host-suffix, 147xs.org , proxy
+
+#第一六九
+host-suffix, diyi69.com , proxy
+
+#顶漫画
+host-suffix, dingmanhua.com , proxy
+
+#鸟鸟韩漫
+host-suffix, nnhanman.net , proxy
+
+#mangabz漫画
+host-suffix, mangabz.com , proxy
+
+#一耽女孩漫画
+host-suffix, ydan.vip , proxy
+host-suffix, ydan.cc , proxy
+host-suffix, ydan.in , proxy
+
+#漫画柜
+host-suffix, manhuagui.com , proxy
+host-suffix, mhgui.com , proxy
+
+#拷贝漫画
+host-suffix, copymanga.tv , proxy
+host-suffix, mangafuna.xyz , proxy
+#禁漫屋
+host-suffix, jmwu.art , proxy
+host-suffix, 88comic.vip , proxy
+host-suffix, jmwu.men , proxy
+host-suffix, jmwu.xyz , proxy
+
+#久久漫画
+host-suffix, ikanhm.top , proxy
+host-suffix, mxshm.top , proxy
+host-suffix, wzdhm.cc , proxy
+host-suffix, comicimgs.com , proxy
+host-suffix, mxs10.cc , proxy
+
+#就漫画
+host-suffix, jiumanhua.com, proxy
+
+#rawkuma漫画
+host-suffix, rawkuma.com , proxy
+
+#开心看漫画
+host-suffix, kxkmh.top , proxy
+host-suffix, ymmh01.top , proxy
+
+#动漫之家
+host-suffix, dmzj.com , proxy
+
+#包子漫画
+host-suffix, webmota.com , proxy
+
+#漫蛙
+host-suffix, manwa.me , proxy
+
+#绅士漫画
+host-suffix, wnacg.com , proxy
+host-suffix, qy0.ru , proxy
+
+#酷看漫画
+host-suffix, kukanmanhua.com , proxy
+
+#九妖漫画
+host-suffix, ciyuanrukou.com , proxy
+
+#colamanga漫画
+host-suffix, colamanhua.com , proxy
+
+#野蛮漫画
+host-suffix, yemancomic.com , proxy
+host-suffix, tmsmh.com , proxy
+
+#✈hentaiPaw漫画
+host-suffix, hentaipaw.com, proxy
+host-suffix, imagedeliveries.com, proxy
+
+#✈ASM漫画asmhentai
+host-suffix, asmhentai.com, proxy
+
+#7mm漫画7mmtv
+host-suffix, 7mmtv.sx, proxy
+
+#H-Comic漫画
+host-suffix, h-comic.com, proxy
