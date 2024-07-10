@@ -1,0 +1,260 @@
+ #阅读分流修正
+ #加入ios源阅【源阅读】交流群一起看书吧，群号：755204552
+ #Telegram：https://t.me/yuanyuedu
+  
+#阅读一键导入
+DOMAIN, sy.legado1.top
+
+#源仓库
+DOMAIN-SUFFIX, yckceo.com
+
+#樱花视频
+DOMAIN-SUFFIX, yhzy.cc
+
+#✈妹塔宇宙meitaav视频
+DOMAIN-SUFFIX, meitaav.com
+DOMAIN-SUFFIX, meita.cc
+
+#91porn视频
+DOMAIN-SUFFIX, 91porn.com
+
+#麻豆视频
+DOMAIN-SUFFIX, meproxy
+
+#溅射淫行视频
+DOMAIN-SUFFIX, xd01.me
+  
+#正妹AV视频
+DOMAIN-SUFFIX, goodav17.com
+
+#哟糖社
+DOMAIN-SUFFIX, nicesss.com
+DOMAIN-SUFFIX, nicezzz.com
+
+#第一版主
+DOMAIN-SUFFIX, diyibanzhu.buzz
+DOMAIN-SUFFIX, 12bz.net
+
+#御书屋
+DOMAIN-SUFFIX, yuzhaiwu.life
+DOMAIN-SUFFIX, po18xs.com
+
+#集书阁
+DOMAIN-SUFFIX, jishuge.vip
+
+#爱笔楼/笔趣阁
+DOMAIN-SUFFIX, ibiquge.info
+DOMAIN-SUFFIX, ibiquzw.info
+
+#猫眼看书
+DOMAIN-SUFFIX, jmlldsc.com
+DOMAIN-SUFFIX, jxgtzxc.com
+  
+#笔尖小说
+DOMAIN-SUFFIX, bjcan8.com
+
+#恩木书库
+DOMAIN-SUFFIX, enmuku.com
+
+#疯情阅读
+DOMAIN-SUFFIX, aaread.club
+
+#龙腾小说
+DOMAIN-SUFFIX, longtengxiaoshuo.org
+
+#大米小说
+DOMAIN-SUFFIX, damixs.com
+DOMAIN-SUFFIX, damixs.info
+
+#海阅小说8
+DOMAIN-SUFFIX, haiyue8.cc
+DOMAIN-SUFFIX, haiyue8.com
+
+#番茄小说123
+DOMAIN-SUFFIX, fqxs123.com
+
+#提莫书屋
+DOMAIN-SUFFIX, timotxt.com
+
+#贼吧网
+DOMAIN-SUFFIX, zei8.vip
+
+#言情港
+DOMAIN-SUFFIX, yanqinggang.com
+
+#九桃小说
+DOMAIN-SUFFIX, 33txs.com
+
+#369小说网
+DOMAIN-SUFFIX, 369book.com
+
+#看书神
+DOMAIN-SUFFIX, kanshushenapp.com
+
+#笔趣阁
+DOMAIN-SUFFIX, biqugewu.net
+DOMAIN-SUFFIX, biqugej.org
+DOMAIN-SUFFIX, bqgka.com
+DOMAIN-SUFFIX, bqgbe.com
+
+#笔趣阁789
+DOMAIN-SUFFIX, biquzw789.info
+DOMAIN-SUFFIX, bqg789.com
+DOMAIN-SUFFIX, bqzw789.com
+
+#天天书吧
+DOMAIN-SUFFIX, ttshuba.net
+
+#全本小说
+DOMAIN-SUFFIX, qb5.in
+DOMAIN-SUFFIX, qb5.ac
+
+#奇快中文
+DOMAIN-SUFFIX, qkzw.cc
+
+#138阅读网
+DOMAIN-SUFFIX, 138txt.net
+
+#错衡文学网
+DOMAIN-SUFFIX, cuoheng.com
+
+#乐文小说
+DOMAIN-SUFFIX, lewen.so
+DOMAIN-SUFFIX, lewen.org
+
+#天籁小说
+DOMAIN-SUFFIX, 23sk.net
+DOMAIN-SUFFIX, 23sk.com
+
+#骑士小说
+DOMAIN-SUFFIX, 74txt.com
+  
+#星月文学
+DOMAIN-SUFFIX, xingyueboke.com
+
+#TVB小说网
+DOMAIN-SUFFIX, tvbts.net
+DOMAIN-SUFFIX, tvbts4.com
+
+#飞翔鸟中文🐦‍⬛
+DOMAIN-SUFFIX, fxnzw.com
+
+#爱去小说
+DOMAIN-SUFFIX, aiquxs.com
+
+#书汇小说
+DOMAIN-SUFFIX, shuhui8.com
+
+#江南小说
+DOMAIN-SUFFIX, medabc.com.cn
+
+#爱下电子书
+DOMAIN-SUFFIX, aixdzs.com
+
+#69书吧
+DOMAIN-KEYWORD, 69shu
+DOMAIN, www_69shuba_pro.for.alnk.cn
+#渣渣小说
+DOMAIN, zztxt.net
+
+#云云小说
+DOMAIN-SUFFIX, yunyunxs.com
+
+#去读小说
+DOMAIN-SUFFIX, hongyue3.net
+
+#147小说
+DOMAIN-SUFFIX, 147xs.org
+
+#第一六九
+DOMAIN-SUFFIX, diyi69.com
+
+#顶漫画
+DOMAIN-SUFFIX, dingmanhua.com
+DOMAIN-SUFFIX, littlecdn.com
+  
+#鸟鸟韩漫
+DOMAIN, nnhanman.net
+
+#mangabz漫画
+DOMAIN-SUFFIX, mangabz.com
+
+#一耽女孩漫画
+DOMAIN-SUFFIX, ydan.vip
+DOMAIN-SUFFIX, ydan.cc
+DOMAIN-SUFFIX, ydan.in
+
+#漫画柜
+DOMAIN-SUFFIX, manhuagui.com
+DOMAIN-SUFFIX, mhgui.com
+
+#拷贝漫画
+DOMAIN-SUFFIX, copymanga.tv
+DOMAIN-SUFFIX, mangafuna.xyz
+
+#禁漫屋
+DOMAIN-SUFFIX, jmwu.art
+DOMAIN-SUFFIX, 88comic.vip
+DOMAIN-SUFFIX, jmwu.men
+DOMAIN-SUFFIX, jmwu.xyz
+
+#久久漫画
+DOMAIN-SUFFIX, ikanhm.top
+DOMAIN-SUFFIX, mxshm.top
+DOMAIN-SUFFIX, wzdhm.cc
+DOMAIN-SUFFIX, comicimgs.com
+DOMAIN-SUFFIX, mxs10.cc
+
+#就漫画
+DOMAIN-SUFFIX, jiumanhua.com
+
+#rawkuma漫画
+DOMAIN-SUFFIX, rawkuma.com
+
+#开心看漫画
+DOMAIN-SUFFIX, kxkmh.top
+DOMAIN-SUFFIX, ymmh01.top
+
+#动漫之家
+DOMAIN-SUFFIX, dmzj.com
+
+#包子漫画
+DOMAIN-SUFFIX, webmota.com
+
+#漫蛙
+DOMAIN-SUFFIX, manwa.me
+
+#绅士漫画
+DOMAIN-SUFFIX, wnacg.com
+DOMAIN-SUFFIX, qy0.ru
+
+#酷看漫画
+DOMAIN-SUFFIX, kukanmanhua.com
+
+#九妖漫画
+DOMAIN-SUFFIX, ciyuanrukou.com
+DOMAIN-SUFFIX, 9y02.xyz
+DOMAIN-SUFFIX, 9y01.xyz
+  
+#colamanga漫画
+DOMAIN-SUFFIX, colamanhua.com
+
+#野蛮漫画
+DOMAIN-SUFFIX, yemancomic.com
+DOMAIN-SUFFIX, tmsmh.com
+
+#✈hentaiPaw漫画
+DOMAIN-SUFFIX, hentaipaw.com
+DOMAIN-SUFFIX, imagedeliveries.com
+
+#✈ASM漫画asmhentai
+DOMAIN-SUFFIX, asmhentai.com
+
+#7mm漫画7mmtv
+DOMAIN-SUFFIX, 7mmtv.sx
+
+#H-Comic漫画
+DOMAIN-SUFFIX, h-comic.com
+
+#melon365音乐
+DOMAIN-SUFFIX, melon365.com
