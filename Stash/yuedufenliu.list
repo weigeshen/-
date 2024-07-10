@@ -157,7 +157,7 @@
   - DOMAIN-KEYWORD, 69shu
   - DOMAIN, www_69shuba_pro.for.alnk.cn
 #渣渣小说
-host-suffix, zztxt.net
+  - DOMAIN, zztxt.net
 
 #云云小说
   - DOMAIN-SUFFIX, yunyunxs.com
@@ -176,7 +176,7 @@ host-suffix, zztxt.net
   - DOMAIN-SUFFIX, littlecdn.com
   
 #鸟鸟韩漫
-host-suffix, nnhanman.net
+  - DOMAIN, nnhanman.net
 
 #mangabz漫画
   - DOMAIN-SUFFIX, mangabz.com
