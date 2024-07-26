@@ -1,6 +1,6 @@
 #!name=彩云天气svip,知乎去广告
 #!desc=彩云天气svip,知乎去广告
-#!icon = 
+#!icon = https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/IMG_4418.jpeg
 [Rewrite]
 # 知乎去除最常访问
 ^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
