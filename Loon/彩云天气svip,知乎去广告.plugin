@@ -1,5 +1,5 @@
 #!name=彩云天气svip,知乎去广告
-#!desc=edc
+#!desc=彩云天气svip,知乎去广告
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1029.png
 [Rewrite]
 # 知乎去除最常访问
