@@ -1,0 +1,72 @@
+#!name=彩云天气svip,知乎去广告
+#!desc=edc
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1029.png
+[Rewrite]
+# 知乎去除最常访问
+^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
+# 知乎其他广告拦截
+^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|.*featured-comment-ad) - reject-dict
+# 知乎网页版去广告
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-dict
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-dict
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-dict
+# 知乎品牌提问广告
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
+# 屏蔽消息页面上拉的用户精选
+^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject-dict
+# 知乎下发的配置，如皮肤等
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200
+# 屏蔽知乎“我的”页面推荐开通会员的卡片
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject-200
+# 知乎去除Tab页关注人头像
+^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
+[Rewrite] # 知乎去除最常访问 ^https？：\/\/api\.zhihu\.com\/moments\/recent - reject-dict # 知乎其他广告拦截 ^https？：\/\/api\.zhihu\.com\/（notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|.*featured-comment-ad） - reject-dict # 知乎网页版去广告 ^https？：\/\/www\.zhihu\.com\/api\/v4/（questions|anwsers）\/\d+/related-readings - reject-dict ^https？：\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-dict ^https？：\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-dict ^https？：\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-dict # 知乎品牌提问广告 ^https？：\/\/api\.zhihu\.com\/brand\/question\/\d+/card\？- reject-dict ^https？：\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\？- reject-dict # 屏蔽消息页面上拉的用户精选 ^https？：\/\/api\.zhihu\.com/moments/hybrid\？- reject-dict # 知乎下发的配置，如皮肤等 ^https？：\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200 # 屏蔽知乎“我的”页面推荐开通会员的卡片 ^https？：\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject-200 # 知乎去除Tab页关注人头像 ^https？：\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
+[Script]
+#彩云天气svip
+http-response ^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user) script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js, requires-body=true, timeout=60, tag=caiyun
+[脚本] #彩云天气svip http-response ^https：\/\/biz\.cyapi\.cn\/（p\/v1\/vip_info|v2\/user） script-path=https：//raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js， requires-body=true， timeout=60， tag=caiyun
+# 解除部分视频后台限制,开屏页广告,推荐页广告,动态(最常访问/推荐话题/列表广告),视频播放页面(up主推荐广告,相关推荐广告)
+http-response ^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2) script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js, requires-body=true, timeout=60, tag=bilibili-json
+http-response ^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll|playurl\.v1\.PlayURL\/PlayView)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js, requires-body=true, binary-body-mode=true, timeout=60, tag=bilibili-proto
+http-响应 ^https：\/\/app\.bilibili\.com\/bilibili\.app\.（视图\.v1\。View\/View|dynamic\.v2\。Dynamic\/DynAll|playurl\.v1\。PlayURL\/PlayView）$ script-path=https：//raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js， requires-body=true， binary-body-mode=true， timeout=60， tag=bilibili-proto
+# 知乎开屏页广告,首页右下角悬浮框,推荐列表广告,问题回答列表广告,具体回答下广告
+http-response ^https:\/\/(appcloud2\.zhihu\.com\/v3\/config$|www\.zhihu\.com\/api\/v4\/(answers\/\d+\/recommendations|articles\/\d+\/recommendation)|api\.zhihu\.com\/(topstory\/recommend|commercial_api\/(real_time_launch_v2|app_float_layer$)|questions\/\d+\/feeds\?|v4\/questions\/\d+\/answers\?)) script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎开屏页广告，首页右下角悬浮框，推荐列表广告，问题回答列表广告，具体回答下广告 http-response ^https：\/\/（appcloud2\.zhihu\.com\/v3\/config$|www\.zhihu\.com\/api\/v4\/（answers\/\d+\/recommendations|articles\/\d+\/recommendation）|api\.zhihu\.com\/（topstory\/recommend|commercial_api\/（real_time_launch_v2|app_float_layer$）|questions\/\d+\/feeds\？|v4\/问题\/\d+\/答案\？））script-path=https：//raw.githubusercontent.com/app2smile/rules/master/js/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎处理用户信息
+http-response ^https?:\/\/api\.zhihu\.com\/people\/ script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎处理用户信息 http-response ^https？：\/\/api\.zhihu\.com\/people\/ script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎信息流去广告
+http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎信息流去广告 http-response ^https？：\/\/api\.zhihu\.com\/（moments|topstory）（\/|\？）？（建议|行动=|feed_type=）(?!\/people） script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎获取黑名单
+http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎获取黑名单 http-response ^https？：\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎官方消息去广告
+http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎官方消息去广告 http-response ^https？：\/\/api\.zhihu\.com\/notifications\/v3\/（message|timeline\/entry\/system_message） script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎预置关键词去广告
+http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎预置关键词去广告 http-response ^https？：\/\/api\.zhihu\.com\/search\/preset_words\？script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎优化软件配置
+http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎优化软件配置 http-response ^https？：\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎热搜去广告
+http-response ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎热搜去广告 http-response ^https？：\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎热榜去广告
+http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎热榜去广告 http-response ^https？：\/\/api\.zhihu\.com\/topstory\/hot-lists？(\?|\/） script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎评论去广告
+http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎评论去广告 http-response ^https？：\/\/api\.zhihu\.com\/（comment_v5\/）？（回答|评论？|articles|pins）\/\d+\/（root_|child_）？评论？script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 知乎屏蔽关键词解锁
+http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js, requires-body=true, timeout=60, tag=zhihu
+# 知乎屏蔽关键词解锁 http-request ^https？：\/\/api\.zhihu\.com\/feed-root\/block script-path=https：//gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js， requires-body=true， timeout=60， tag=zhihu
+# 快手联盟,优量汇,穿山甲
+http-response ^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?) script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js, requires-body=true, timeout=60, tag=adsense
+# 快手联盟，优量汇，穿山甲 http-response ^https：\/\/（api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\？） script-path=https：//raw.githubusercontent.com/app2smile/rules/master/js/adsense.js， requires-body=true， timeout=60， tag=adsense
+[MITM]
+hostname = biz.cyapi.cn, wrapper.cyapi.cn, app.bilibili.com, grpc.biliapi.net, www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, 103.41.167.236, 103.41.167.234, 103.41.167.235, 103.41.167.226, api-access.pangolin-sdk-toutiao.com, mi.gdt.qq.com, open.e.kuaishou.com
+[MITM] 主机名 = biz.cyapi.cn、wrapper.cyapi.cn、app.bilibili.com、grpc.biliapi.net、www.zhihu.com、api.zhihu.com、zhuanlan.zhihu.com、appcloud2.zhihu.com、103.41.167.236、103.41.167.234、103.41.167.235、103.41.167.226、api-access.pangolin-sdk-toutiao.com、mi.gdt.qq.com、open.e.kuaishou.com
