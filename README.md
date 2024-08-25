@@ -17,6 +17,9 @@ Surge 自用配置：https://raw.githubusercontent.com/weigeshen/-/main/Surge/Su
 
 Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 
+图标订阅：主要来源于：mini项目：https://github.com/Orz-3/mini
+
+订阅地址：⑭https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json
 
 等……
 
