@@ -20,7 +20,7 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 #!name=阿里 DNS
 #!desc=适配阿里 DoH JSON API
 
-①https://raw.githubusercontent.com/Maasea/sgmodule/master/Alidns.sgmodule
+①https://raw.githubusercontent.com/weigeshen/-/main/Surge/mokuai/Alidns.sgmodule
 添加模块。
 
 ②打开自己的阿里云 进入阿里云搜索 云解析DNS 进入控制台，选择 递归解析（公共DNS）没有就申请个，个人免费版，把里面的：Account ID,AccessKey ID,AccessKey Secret 参数复制。
