@@ -74,7 +74,6 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 
 ⑫https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
 
-QureColor.json
 
 等……
 
