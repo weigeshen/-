@@ -81,6 +81,9 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 
 ⑫服务 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/weigeshen/-/main/Surge/TuPian/IMG_4635.png" width="300"></img>
+</p>
 一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一
 
 等……
