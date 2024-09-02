@@ -40,13 +40,13 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 
 一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一
 
-图标订阅：主要来源于：mini项目：https://github.com/Orz-3/mini
+图标订阅：主要来源于：mini项目：https://github.com/Orz-3/mini，其它网络搜集。
 
-策略图标订阅地址
+策略图标订阅
 
 图标合集🌄🌆🌁🗾🌠🏙️🎑🎇🌃🏞️🎆
 
-1️⃣图标合集 https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json
+1️⃣图标合集 包含（①-⑫彩色图标分类）https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json
 
 2️⃣图标合集 https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json
 
@@ -57,29 +57,29 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 5️⃣透明图标 https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
 
 下面👇👇👇👇👇👇👇👇是彩色图标分类
-①https://raw.githubusercontent.com/Orz-3/mini/master/mini.json
+①彩色小图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini.json
 
-②https://raw.githubusercontent.com/Orz-3/mini/master/mini%2B.json
+②其它图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini%2B.json
 
-③https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-AppGame.json
+③应用与游戏 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-AppGame.json
 
-④https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Archived.json
+④归档 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Archived.json
 
-⑤https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Area.json
+⑤地区国旗 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Area.json
 
-⑥https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Common.json
+⑥常用 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Common.json
 
-⑦https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Default.json
+⑦默认 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Default.json
 
-⑧https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Inhibition.json
+⑧禁止 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Inhibition.json
 
-⑨https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Media.json
+⑨流媒体 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Media.json
 
-⑩https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Other.json
+⑩其它 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Other.json
 
-⑪https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json
+⑪服务器 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json
 
-⑫https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
+⑫服务 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
 
 一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一
 
