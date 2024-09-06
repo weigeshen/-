@@ -30,4 +30,4 @@ caiyun_json = type=http-response, pattern=^https?:\/\/starplucker\.cyapi\.cn\/v\
 # > 发现页活动@ddgksf2013
 caiyun_json = type=http-response, pattern=^https?:\/\/starplucker\.cyapi\.cn\/v\d/campaigns, script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, max-size=-1, timeout=60
 [MITM]
-hostname = %APPEND% wrapper.cyapi.cn, api.caiyunapp.com, starplucker.cyapi.cn, ad.cyapi.cn, biz.cyapi.cn
+hostname = %APPEND% wrapper.cyapi.cn
