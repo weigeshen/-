@@ -70,4 +70,3 @@ http-response ^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\
 # 快手联盟，优量汇，穿山甲 http-response ^https：\/\/（api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\？） script-path=https：//raw.githubusercontent.com/app2smile/rules/master/js/adsense.js， requires-body=true， timeout=60， tag=adsense
 [MITM]
 hostname = biz.cyapi.cn, wrapper.cyapi.cn, app.bilibili.com, grpc.biliapi.net, www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, 103.41.167.236, 103.41.167.234, 103.41.167.235, 103.41.167.226, api-access.pangolin-sdk-toutiao.com, mi.gdt.qq.com, open.e.kuaishou.com
-[MITM] 主机名 = biz.cyapi.cn、wrapper.cyapi.cn、app.bilibili.com、grpc.biliapi.net、www.zhihu.com、api.zhihu.com、zhuanlan.zhihu.com、appcloud2.zhihu.com、103.41.167.236、103.41.167.234、103.41.167.235、103.41.167.226、api-access.pangolin-sdk-toutiao.com、mi.gdt.qq.com、open.e.kuaishou.com
