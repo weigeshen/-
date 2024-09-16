@@ -59,6 +59,7 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 6️⃣离歌图标集 https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon-surge.json
 
 下面👇👇👇👇👇👇👇👇是彩色图标分类
+
 ①彩色小图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini.json
 
 ②Color+ https://raw.githubusercontent.com/Orz-3/mini/master/Color%2B.json
