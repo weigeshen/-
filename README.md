@@ -42,44 +42,49 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 
 图标订阅：主要来源于：mini项目：https://github.com/Orz-3/mini，其它网络搜集。
 
-策略图标订阅
+策略图标订阅 合集
 
 图标合集🌄🌆🌁🗾🌠🏙️🎑🎇🌃🏞️🎆
+1️⃣整合图标合集 包含（①-⑭彩色图标分类）https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json
 
-1️⃣图标合集 包含（①-⑫彩色图标分类）https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json
-
-2️⃣图标合集 https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json
+2️⃣ fmz200の图标合集 https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json
 
 3️⃣ 图标合集：https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor.json
 
-4️⃣黑白图标 https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json
+4️⃣黑白图标集 https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json
 
-5️⃣透明图标 https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
+5️⃣透明图标集 https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
+
+6️⃣离歌图标集 https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon-surge.json
 
 下面👇👇👇👇👇👇👇👇是彩色图标分类
 ①彩色小图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini.json
 
-②其它图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini%2B.json
+②Color+ https://raw.githubusercontent.com/Orz-3/mini/master/Color%2B.json
 
-③应用与游戏 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-AppGame.json
+③mini Color https://raw.githubusercontent.com/Orz-3/mini/master/miniColor.json
 
-④归档 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Archived.json
+④其它图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini%2B.json
 
-⑤地区国旗 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Area.json
+⑤应用与游戏 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-AppGame.json
 
-⑥常用 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Common.json
+⑥归档 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Archived.json
 
-⑦默认 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Default.json
+⑦地区国旗 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Area.json
 
-⑧禁止 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Inhibition.json
+⑧常用 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Common.json
 
-⑨流媒体 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Media.json
+⑨默认 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Default.json
 
-⑩其它 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Other.json
+⑩禁止 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Inhibition.json
 
-⑪服务器 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json
+⑪流媒体 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Media.json
 
-⑫服务 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
+⑫其它 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Other.json
+
+⑬服务器 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json
+
+⑭服务 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/weigeshen/-/main/Surge/TuPian/IMG_4635.png" width="300"></img>
