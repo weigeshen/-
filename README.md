@@ -42,7 +42,7 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 
 图标订阅：主要来源于：mini项目：https://github.com/Orz-3/mini，其它网络搜集。
 
-策略图标订阅 合集
+ 策略图标订阅 合集
 
 图标合集🌄🌆🌁🗾🌠🏙️🎑🎇🌃🏞️🎆
 
@@ -57,6 +57,8 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 5️⃣透明图标集 https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
 
 6️⃣离歌图标集 https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon-surge.json
+
+7️⃣可莉的旗帜图标 https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Flag_icon/ColorfulStaticFlag.json
 
 下面👇👇👇👇👇👇👇👇是彩色图标分类
 
@@ -87,9 +89,6 @@ Surge 收藏仓库：https://github.com/stars/weigeshen/lists/surge/
 ⑬服务器 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json
 
 ⑭服务 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
-
-
-⑮可莉的静态旗帜图标 https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Flag_icon/ColorfulStaticFlag.json
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/weigeshen/-/main/Surge/TuPian/IMG_4635.png" width="300"></img>
