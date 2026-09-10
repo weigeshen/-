@@ -1,0 +1,9 @@
+#!name=俄罗斯克拉 去会员
+#!desc=广告🔞
+
+[Script]
+# > 俄罗斯克拉 去会员+广告🔞
+elskl = type=http-response, pattern=^https?:\/\/sixth.xxcjpt.com\/java\/(user\/my|show), script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/elskl.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% sixth.xxcjpt.com
